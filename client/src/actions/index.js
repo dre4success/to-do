@@ -1,7 +1,7 @@
 import { VIEW_TASKS, CREATE_TASK, UPDATE_TASK, DELETE_TASk } from './types';
 import axios from 'axios';
 
-const url = 'http://localhost:8080';
+const url = 'http://localhost:9000';
 
 export const taskRunner = () => async dispatch => {
   const res = await axios.get(`${url}/api/todos`);

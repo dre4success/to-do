@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/todos', todoRoutes);
 
-const PORT = 8080;
+const PORT = 9000;
 app.listen(PORT, () => {
   console.log(`APP IS RUNNING ON PORT ${PORT}`)
 });
